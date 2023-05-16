@@ -5,4 +5,12 @@ import { Component } from "@angular/core";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"],
 })
-export class AppComponent {}
+export class AppComponent {
+  progress = 0;
+
+  constructor() {
+    setInterval(() => {
+      this.progress = this.progress + 1;
+    }, 200);
+  }
+}
