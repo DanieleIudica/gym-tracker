@@ -1,10 +1,13 @@
 @import "@angular/material/prebuilt-themes/pink-bluegrey.css";
+@import "./variables.scss";
 
 html,
 body {
   height: 100%;
+  color: $font-color;
 }
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: $bg-color;
 }
