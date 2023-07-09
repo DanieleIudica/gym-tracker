@@ -5,10 +5,16 @@ form{
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    mat-form-field{
+      width: 300px;
+      margin-bottom: 16px;
+    }
+    
+    button{
+      margin-top:16px;
+    }
   }
   
-  mat-form-field{
-    width: 300px;
-    margin-bottom: 16px;
-  }
+ 
   
